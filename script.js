@@ -68,6 +68,11 @@ button.addEventListener('click', () => {
     gifAnimation.classList.add('hidden');
     birthdaySound.play();
 })
+
+if (window.innerWidth <= 768) {
+    button.classList.remove('hidden');
+}
+
 window.addEventListener('DOMContentLoaded', (event) => {
     
     /// Particle JS
