@@ -65,6 +65,7 @@ gifAnimation.addEventListener('animationend', () => {
 });
 
 button.addEventListener('click', () => {
+    body.style.backgroundColor = '#f79d65';
     gifAnimation.classList.add('hidden');
     birthdaySound.play();
 })
