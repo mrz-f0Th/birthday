@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="message">
+        <button class="message__btn button-birthday hidden">click me</button>
+     <p class="message__text"></p> 
+        </div>
+     <button class="reload">reload</button>
+
+     <div class="absolute left-0 bottom-0 overflow-hidden w-full">
+        <img class="rounded-full bg-white w-24 w-24 gif-animation" src="racconn_2.gif" alt="">
+     </div>
+
+    <audio id="birthday-sound" preload="auto">
+        <source src="birthday.mp3" type="audio/mpeg">
+    </audio>
+     
+     <!-- particles.js container -->
+     <div id="particles-js"></div>
+    
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer data-deferred="1"></script>
+     <script src="script.js"></script>
+</body>
+</html>
