@@ -1,5 +1,5 @@
 function message() {
-    const message = "happy birthday nabila",
+    const message = "happy birthday Epek",
        messageText = document.querySelectorAll(".message__text"),
        messageSplit = message.split(""),
           messageContainer = document.querySelector(".message"),
